@@ -1,37 +1,171 @@
-html{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	
+body{
+	margin:  0px;
+	background-image: url("../images/cork-wallet.png");
 }
 
-body {
-	background-image: url('../images/cork-wallet.png')
+html, body{
+	height:100%;
+	margin:0;
+}
+
+h1, h2, h3{
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
 h1{
+
 	font-size: 40px;
 	padding-top: 20px;
 }
 
+h2, h3{
+	color:#4aaaa5;
+}
+
+h2{
+
+	
+	padding-top: 10px;
+	font-size:30px;
+	padding-bottom: 10px;
+	border-color: lightgrey;
+	color: #4aaaa5;
+	
+    
+
+}
+
+img {
+	padding-top: 10px;
+}
+
+h3{
+	font-size: 20px;
+}
+
+p {
+	color: #b4a3a5;
+	font-size: 20px;
+
+}
+
+header {
+	color: #4aaaa5;
+	background-color: #ffffff;
+	float: left;
+	height: 80px;
+	width:100%;
+	position: fixed;
+	top: 0;
+	left:0;
+	z-index: 2;
+}
+
 .logo{
-	background-color: #4aaaa5;
-	color:  white;
+
+background-color: #4aaaa5;
+	color: #ffffff;
 	width: 350px;
 	height:80px;
 	text-align: center;
 	float: left;
 	margin-left: 200px;
 	margin-top: 0px;
+}
+
+.navbar a:hover{
+	border: 2px solid  #4aaaa5;
+}
+
+ul{
+	list-style-type: none;
+	margin-right: 200px;
+	margin-top:47px;
+	padding: 0;
+}
+
+li{
+	float: right;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	padding: 5px 16px;
+	text-decoration: none;
+	color: #4aaaa5;
+}
+
+hr {
+
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.main_text{	
+	background-color: #ffffff;
+	color: #ffffff;
+	width:  650px;
+	margin: 0;
+	margin:  0 auto 0;
+	position: relative;
+	right:  195px;
+	top:  100px;
+	padding-bottom:  40px;
+	border:  solid;
+	border-color: lightgrey;
+	
+	
 
 }
 
-.content_area
-{
-	min-height: 100%;
-	width: 960px;
-	margin-left:200px;
-	margin-bottom: 90px;
-
+.sidebar {
+	background-color: #ffffff;
+	color: #ffffff;
+	float: right;
+	margin: 2px;
+	position: relative;
+	right: 240px;
+	bottom: 170px;
+	border: solid;
+	
 }
 
 
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+footer {
+
+	background-color: #666666;
+	clear: both;
+	position: relative;
+	top: 100px;
+	border-top: 8px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+	border-color: #4aaaa5;
+	text-align: center;
+	border-style: solid;
+	width: 100%;
+
+
+}
 
