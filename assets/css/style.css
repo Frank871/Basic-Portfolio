@@ -118,21 +118,28 @@ hr {
 	top:  100px;
 	padding-bottom:  40px;
 	border:  solid;
-	border-color: lightgrey;
+	border-color: grey;
 	
 	
 
 }
 
 .sidebar {
+
+	border:  solid;
+	border-color: grey;
 	background-color: #ffffff;
 	color: #ffffff;
 	float: right;
 	margin: 2px;
 	position: relative;
-	right: 240px;
+	right: 250px;
 	bottom: 170px;
-	border: solid;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	
 	
 }
 
